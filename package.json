@@ -1,0 +1,23 @@
+{
+  "name": "tone_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponta027/tone_sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ponta027/tone_sample/issues"
+  },
+  "homepage": "https://github.com/ponta027/tone_sample#readme",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.20",
+    "fs": "0.0.1-security"
+  }
+}
