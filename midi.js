@@ -11,12 +11,13 @@ track.addNote({
     duration : 0.2
 })
 
-
 fs.writeFileSync( "output.midi" , new Buffer( midi.toArray()))
 
 
-const json = JSON.parse(fs.readFileSync('./json/sample.json', 'utf8'));
+const filename = process.argv[2];
+console.log(filename);
+const json = JSON.parse(fs.readFileSync(filename, 'utf8'));
 //const json = JSON.parse(readFileSync(resolve(__dirname, "./midi/sample.json")).toString());
 const midi2 = new Midi();
 midi2.fromJSON(json);
-fs.writeFileSync( "output_fromjson.midi" , new Buffer( midi2.toArray()))
+fs.writeFileSync( filename +".mid" , new Buffer( midi2.toArray()))
