@@ -10,20 +10,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var midi_1 = require("@tonejs/midi");
 var fs = __importStar(require("fs"));
 var filename = process.argv[2];
-console.log(filename);
-var json = JSON.parse(fs.readFileSync(filename, 'utf8'));
-var midi2 = new midi_1.Midi();
-midi2.fromJSON(json);
-fs.writeFileSync(filename + ".mid", Buffer.from(midi2.toArray()));
+function createMidiFromJson(filename) {
+    console.log(filename);
+    var json = JSON.parse(fs.readFileSync(filename, 'utf8'));
+    var midi2 = new midi_1.Midi();
+    midi2.fromJSON(json);
+    fs.writeFileSync(filename + '.mid', Buffer.from(midi2.toArray()));
+    return;
+}
 function createMidiRaw() {
     var midi = new midi_1.Midi();
     var track = midi.addTrack();
-    track.addNote({
-        midi: 60,
-        time: 0,
-        duration: 0.2
-    });
-    fs.writeFileSync("output.midi", Buffer.from(midi.toArray()));
+    track.addNote({ midi: 60, time: 0, duration: 0.2 });
+    fs.writeFileSync('output.midi', Buffer.from(midi.toArray()));
 }
 createMidiRaw();
+createMidiFromJson(filename);
 //# sourceMappingURL=ex.js.map
