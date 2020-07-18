@@ -1,0 +1,114 @@
+{
+  "header": {
+    "keySignatures": [],
+    "meta": [],
+    "name": "",
+    "ppq": 8,
+    "tempos": [
+      {
+        "bpm": 120,
+        "ticks": 0
+      }
+    ],
+    "timeSignatures": []
+  },
+  "tracks": [
+    {
+      "channel": 9,
+      "controlChanges": {
+        "0": [
+          {
+            "number": 0,
+            "ticks": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "number": 7,
+            "ticks": 7,
+            "time": 0,
+            "value": 127
+          }
+        ]
+      },
+      "pitchBends": [],
+      "instrument": {
+        "number": 56
+      },
+      "name": "",
+      "notes": [
+        {
+          "durationTicks": 32,
+          "midi": 0,
+          "name": "B3",
+          "ticks": 1,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 1,
+          "ticks": 64,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 2,
+          "ticks": 128,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 3,
+          "ticks": 172,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 4,
+          "ticks": 256,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 5,
+          "ticks": 288,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 6,
+          "ticks": 320,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 7,
+          "ticks": 352,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 8,
+          "ticks": 384,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 9,
+          "ticks": 416,
+          "time": 0,
+          "velocity": 1
+        }
+      ]
+    }
+  ]
+}

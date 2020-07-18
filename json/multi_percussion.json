@@ -1,0 +1,78 @@
+{
+  "header": {
+    "keySignatures": [],
+    "meta": [],
+    "name": "",
+    "ppq": 8,
+    "tempos": [
+      {
+        "bpm": 120,
+        "ticks": 0
+      }
+    ],
+    "timeSignatures": []
+  },
+  "tracks": [
+    {
+      "channel": 9,
+      "controlChanges": {
+        "0": [
+          {
+            "number": 0,
+            "ticks": 0,
+            "time": 0,
+            "value": 0
+          },
+          {
+            "number": 7,
+            "ticks": 7,
+            "time": 0,
+            "value": 127
+          }
+        ]
+      },
+      "pitchBends": [],
+      "instrument": {
+        "number": 56
+      },
+      "name": "channel1",
+      "notes": [
+        {
+          "durationTicks": 32,
+          "midi": 0,
+          "name": "B3",
+          "ticks": 1,
+          "time": 0,
+          "velocity": 1
+        }
+      ]
+    },
+    {
+      "channel": 1,
+      "controlChanges": {},
+      "pitchBends": [],
+      "instrument": {
+        "number": 0
+      },
+      "name": "channel2",
+      "notes": [
+        {
+          "durationTicks": 32,
+          "midi": 38,
+          "name": "B3",
+          "ticks": 1,
+          "time": 0,
+          "velocity": 1
+        },
+        {
+          "durationTicks": 32,
+          "midi": 60,
+          "name": "B3",
+          "ticks": 32,
+          "time": 0,
+          "velocity": 1
+        }
+      ]
+    }
+  ]
+}
